@@ -31,5 +31,5 @@ The dataset consists of:
 Clone this repository:
 
 ```bash
-git clone https://github.com/yourusername/kenya-clinical-reasoning.git
+git clone https://github.com/Alphadavethedon/kenya-clinical-reasoning-challenge.git
 cd kenya-clinical-reasoning
