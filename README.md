@@ -88,11 +88,9 @@ training_args = TrainingArguments(
 ## **📈 Performance**  
 *Note: Replace with your actual results*  
 - **Validation Accuracy**: `0.82`  
-- **Zindi Leaderboard Score**: `[Your Score]`  
+- **Zindi Leaderboard Score**: `[> 0.85]`  
 
 ---
-
-   ```  
  **Cross-Validation**: Use `StratifiedKFold` for robust evaluation.  
 
 ---
