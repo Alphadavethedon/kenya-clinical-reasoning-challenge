@@ -1,6 +1,4 @@
----
-
-# **Clinical Reasoning with T5 Transformer**  
+**Clinical Reasoning with T5 Transformer**  
 **Zindi Competition: Kenya Clinical Reasoning Challenge**  
 *Notebook Link:* [Open in Colab](https://colab.research.google.com/drive/1w4WfgLFlHjdQCGI5he4jTTUKGwG-Dh_e)  
 
