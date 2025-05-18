@@ -71,13 +71,13 @@ training_args = TrainingArguments(
 ---
 
 ## **📤 Submission**  
-1. Predictions are saved to `submission.csv` with columns:  
+ Predictions are saved to `submission.csv` with columns:  
    ```csv
    ID,Target
    test_1,0
    test_2,1
    ```  
-2. Validated using:  
+ Validated using:  
    ```python
    def validate_submission(df):
        assert {"ID", "Target"}.issubset(df.columns), "Missing required columns!"
@@ -92,14 +92,8 @@ training_args = TrainingArguments(
 
 ---
 
-## **🔍 How to Improve**  
-1. **Try Larger Models**: Switch to `t5-base` if Colab resources allow.  
-2. **Add Medical Features**:  
-   ```python
-   # Example: Extract key clinical terms
-   df["has_fever"] = df["text"].str.contains("fever").astype(int)
    ```  
-3. **Cross-Validation**: Use `StratifiedKFold` for robust evaluation.  
+ **Cross-Validation**: Use `StratifiedKFold` for robust evaluation.  
 
 ---
 
